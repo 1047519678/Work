@@ -1,0 +1,27 @@
+@charset "UTF-8";
+.mui-bar-popover {
+    width: 30%;
+}
+
+/*修改样式*/
+.mui-title{
+    font-size: 18px;
+}
+.mui-bar{
+    box-shadow: none;
+    border-top: 1px solid #e6e6e6;
+    border-bottom: 1px solid #e6e6e6;
+}
+.mui-popover.mui-bar-popover .mui-table-view{
+    width: 100%;
+}
+.mui-table-view-cell > a:not(.mui-btn){
+    font-size: 15px;
+}
+.mui-bar-tab .mui-tab-item{
+    color: black;
+    border-right: 1px solid #e6e6e6;
+}
+.mui-bar-tab .mui-tab-item:last-child{
+    border-right: none;
+}

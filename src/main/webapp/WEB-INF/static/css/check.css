@@ -1,0 +1,85 @@
+/*修改样式*/
+.mui-btn, button, input[type=button], input[type=reset], input[type=submit]{
+    margin: 0;
+    padding: 0;
+    width: 20%;
+    height: 30px;
+}
+.mui-card{
+    width: 100%;
+    padding: 0;
+    height: auto;
+    margin: 0;
+    margin-bottom: 10px;
+}
+.mui-content > .mui-card:first-child{
+    margin: 0;
+}
+
+/**/
+.mui-input-group{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.mui-input-group .mui-input-row{
+    display: flex;
+    align-items: center;
+    padding-left: 10px;
+    height: 40px;
+}
+.mui-input-row label{
+    padding: 0;
+}
+.mui-input-group .mui-input-row:after{
+    height: 0;
+}
+
+/**/
+#div {
+    width: 0;
+    height: 0;
+    position: fixed;
+    top: 60%;
+    left: 50%;
+}
+/*移除底部或顶部三角,需要在删除此代码*/
+.mui-popover .mui-popover-arrow:after {
+    width: 0;
+}
+#popover{
+    padding-top: 10px;
+}
+
+.mui-checkbox, .mui-radio{
+    height: 40px;
+    width: 90%;
+    margin: auto;
+    line-height: 40px;
+    border-bottom: 1px solid #dddddd;
+}
+
+.mui-bar-tab ~ .mui-content{
+    padding-bottom: 10px;
+}
+.mui-bar .mui-bar-nav{
+    position: relative;
+}
+#header-bor{
+    position: relative;
+    width: 100%;
+    height: 45px;
+}
+/*分页*/
+html, body {
+    position: relative;
+    height: 100%;
+}
+.swiper-container {
+    width: 100%;
+    height: auto;
+}
+.swiper-slide {
+    font-size: 15px;
+    background: #fff;
+}

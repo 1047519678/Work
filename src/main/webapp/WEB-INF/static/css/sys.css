@@ -1,0 +1,74 @@
+.sys-rolebtn {
+	height: 24px;
+	margin-top: -8px;
+}
+
+.titile-box {
+	text-align: center;
+	background-color: #16c936;
+	padding-bottom: 0px;
+	border: 4px solid;
+	line-height: 25px;
+}
+
+.kanban-console-color{
+	background-color: #04156b;
+}
+
+.console1 .data-body .media-cont .tit {
+    font-size: 16px;
+    padding-bottom: 5px;
+	color: #FFFDEF;
+}
+
+.kanban-card-color{
+	background-color: #acacf9;
+}
+
+.console .map-body {
+	height: 220px;
+	padding: 5px;
+	/* background-color: #26c0d2; */
+	border-bottom:0px;
+}
+
+.kanban-sm-box{
+	/* background-color: #26c0d2; */
+	border-bottom:0px;
+}
+
+.search-box{
+	padding: 6px;
+    border: 1px solid #ddd;
+    border-radius: 5px;
+}
+
+.last{
+	display: contents;
+}
+
+.tii{
+	margin-left: -1px;
+}
+
+.nav_tit{
+	margin-bottom: 10px;
+    border-bottom: 1px solid #d6bfbf;
+	font-size: 0;
+}
+
+.nav_tit_va{
+	font-size: 20px;
+    
+    padding-left: 15px;
+    padding-right: 15px;
+	padding-top: 5px;
+    padding-bottom: 1px;    
+	background-color: #fdfaff;
+}
+
+.nav_tit_line{
+	color: #009688;
+	border-bottom: 3px solid;
+	background-color: #dfeadf;
+}

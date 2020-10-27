@@ -1,0 +1,34 @@
+.platform-border{
+    width: 90%;
+    height: auto;
+    border: 1px solid #eaeaeb;
+    border-radius: 10px;
+    margin: 10px 5%;
+    box-shadow: 0 0 5px 0 #dfdfdf;
+}
+.platform-border p{
+    margin: 0;
+    padding: 5px 0;
+    text-indent: 10px;
+    border-bottom: 1px solid #dfdfdf;
+}
+
+.function-bor{
+    width: 100%;
+    height: 80px;
+}
+.fun-bor{
+    width: 25%;
+    height: 100%;
+    text-align: center;
+    float: left;
+}
+.fun-bor img{
+    margin-top: 8px;
+    width: 35px;
+}
+.fun-bor div{
+    color: #58595a;
+    font-size: 0.9rem;
+    padding: 0px 1px;
+}

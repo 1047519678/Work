@@ -1,0 +1,50 @@
+.header-bor a img{
+    position: absolute;
+    left: 10px;
+    top: 10px;
+    height: 25px;
+}
+
+.work-num{
+    margin-top: 10px;
+    height: 40px;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+.work-num span{
+    display: inline-block;
+    width: 20%;
+    height: 100%;
+    line-height: 40px;
+}
+.work-num input{
+    width: 60%;
+    height: 30px;
+    margin-top: 10px;
+    outline-color: #1f7eff;
+    border: none;
+}
+.work-btn{
+    width: 100%;
+    height: 50px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.work-btn button{
+    border: none;
+    background-color: #1f7eff;
+    color: white;
+    border-radius: 3px;
+    width: 50%;
+    height: 35px;
+    outline-color: #1f7eff;
+}
+
+.work-cont{
+    width: 100%;
+    height: auto;
+    border: 1px solid #eaeaeb;
+    margin-top: 10px;
+}
